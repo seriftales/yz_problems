@@ -2,7 +2,6 @@
 
 Bu depo yapay zeka derslerinde işlenen klasik arama, kısıtlamalı optimizasyon ve durum uzayı problemlerinin Python implementasyonlarını içermektedir. Problemler brute force yöntemleriyle değil; BFS, DFS, Dijkstra ve A* gibi arama algoritmaları kullanılarak arama uzayının budanması ve sezgisel maliyet hesaplamalarıyla çözülmüştür.
 
-##  Çözülen Problemler ve Kullanılan Mimari
 
 ### 1. Turistler ve Yamyamlar Problemi
 *   **Algoritma:** Genişlik Öncelikli Arama (BFS - Breadth-First Search)

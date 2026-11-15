@@ -30,7 +30,7 @@ Bu depo yapay zeka derslerinde işlenen klasik arama, kısıtlamalı optimizasyo
 *   **Algoritma:** Derinlik Öncelikli Arama (DFS) ve Geriye İz Sürme (Backtracking)
 *   **Mühendislik Yaklaşımı:** Harflere 0-9 arası rakamlar atanarak dinamik bir durum uzayı yaratılmıştır. Kural ihlali görüldüğünde ya da denklemin tutmadığı çelişki düğümleri, sistem bellekteki atamayı silip bir üst düğüme geri dönerek iterasyonlarını optimize eder. Sistem girilen her türlü toplama kelime kurgusuna adapte olabilecek şekilde tasarlanmıştır.
 
-## 🚀 Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 Projeyi bilgisayarınıza klonlayın ve klasör içine girin:
 

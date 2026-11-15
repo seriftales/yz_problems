@@ -7,7 +7,7 @@ Bu depo yapay zeka derslerinde işlenen klasik arama, kısıtlamalı optimizasyo
 *   **Algoritma:** Genişlik Öncelikli Arama (BFS - Breadth-First Search)
 *   **Yaklaşım:** Bütün geçişlerin maliyeti eşit olduğu için en kısa yolu garanti eden BFS kullanılmıştır. Durumlar `(sol_turist, sol_yamyam, tekne_yonu)` şeklinde modellenmiş, yamyam sayısının turist sayısını geçtiği "çatışmalı durumlar" anında budanarak arama ağacının RAM'i şişirmesi engellenmiştir.
 
-### 2. 8-Taş (8-Puzzle) Problemi
+### 2. 8-Taş Problemi
 *   **Algoritma:** A* Algoritması
 *   **Yaklaşım:** Arama uzayının faktöriyel büyüklüğe ulaşmasını engellemek için sezgisel maliyet fonksiyonu ($f(n) = g(n) + h(n)$) kullanılmıştır. 
     *   Durumlar 3x3 matris yerine $O(1)$ hash süresi için tek boyutlu *Tuple* olarak tutulmuştur.
